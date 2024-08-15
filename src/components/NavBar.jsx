@@ -10,7 +10,7 @@ import { Icon } from "@iconify/react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 // Images
 import Logo from "./defaultNavLogo.svg";
-import image_icon from "../images/iconM.png";
+import image_icon from "../images/logo.png";
 
 // #region styled-components
 const StyledSwitch = styled.label`
@@ -97,9 +97,7 @@ export default function NavBar({ Logo }) {
       { id: "2T", name: "About Us", to: "About" },
       { id: "3T", name: "Description", to: "Description" },
       { id: "4T", name: "Dataset behavior", to: "Dataset_behavior" },
-      { id: "5T", name: "Machine learning Model", to: "Machine_learning" },
-      { id: "6T", name: "Neural Network Model", to: "Neuronal_Network" },
-      { id: "7T", name: "Final Conclusion", to: "Final_Conclusion" },
+    
     ],
   };
 
@@ -114,7 +112,7 @@ export default function NavBar({ Logo }) {
         bg={theme === "light" ? "light" : "dark"}
         variant={theme === "light" ? "light" : "dark"}
         fixed="top"
-        style={{ borderBottom: '2px solid red', borderTop: 'none', borderLeft: 'none', borderRight: 'none' }}
+        style={{ borderBottom: '2px solid orange', borderTop: 'none', borderLeft: 'none', borderRight: 'none' }}
 
       >
         <Container>

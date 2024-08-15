@@ -31,9 +31,7 @@ export default function Home() {
         <AboutUs />
         <Description />
         <Dataset_behavior />
-        <Machine_learning_model />
-        <Neuronal_Network />
-        <Final_Conclusion />
+      
       </main>
       <BackToTop home={"Home"} />
       <Footer />
